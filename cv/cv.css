@@ -1,0 +1,52 @@
+.box{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+    padding: 10%;
+    
+}
+
+
+.box div{
+    background-color: antiquewhite;
+    width:85%;
+    margin: 10px;
+    text-align: match-parent;
+    line-height: normal;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    border: 10px solid antiquewhite;
+
+}
+.button {
+    min-width: 700px;
+    display: flex;
+    justify-content:right;
+  }
+  
+  .button a {
+    text-decoration: none;
+    font-size: 40px;
+    width: 40px;
+    border-radius: 13px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: white;
+   
+    transition: all .4s ease-in-out;
+  }
+  
+  .button a:hover {
+    transform: scale(1.2);
+  }
+
+  .boton{
+    background-color: antiquewhite;
+    display: flex;
+  }
+
